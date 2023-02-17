@@ -1,0 +1,105 @@
+.image-part{
+    position: relative;
+    text-align: right;
+}
+.text-part {
+    float: right;
+    position: absolute;
+    top: 25%;
+    right: 10%;
+}
+.text-part p{
+    font-size: 20px;
+}
+.text-part h1{
+    font-size: 65px;
+}
+.button-c{
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    width: 27%;
+}
+.image-part img{
+    width: 100%;
+}
+.failur-area{
+    display: flex;
+    padding: 10px;
+}
+.failur-img img{
+    width: 90%;
+    height: auto;
+    margin-left: 29%;
+}
+.failur-text{
+    margin-top: 6%;
+    padding-left: 8%;
+}
+.failur-text h1{
+   font-size: 40px;
+}
+.failur-list{
+   display: flex;
+}
+.icon img{
+    width: 30px;
+    height: auto;
+    padding: 9px;
+}
+li{
+    list-style: none;
+}
+.my-plan{
+    display: flex;
+    margin: 4% 0px 0px 0%;
+    padding: 10px;
+    text-align: center;
+}
+.web-dev, .web-js, .sm-end, .ecom-dev {
+    margin-left: 13%;
+    padding-left: 11px;
+}
+.feature-mind{
+    background-image:  linear-gradient(to left, rgba(245, 246, 252, 0.52), rgba(255, 115, 0, 0.73)), url(/img/watch.png);
+    background-repeat: no-repeat;
+    padding: 30px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    margin: 50px;
+}
+.mindset-bt{
+    width: 10%;
+    padding: 10px;
+    color: orange;
+    border: none;
+    font-size: 15px;
+}
+.footer-main{
+   display: flex;
+   background-color: rgb(0, 0, 0);
+   color: white;
+   padding: 10px;
+}
+.left-part{
+    padding-left: 10%;
+    margin: 10px;
+}
+.right-part{
+    padding-right: 10%;
+    margin: 3% 0 0 43%;
+}
+.subscribe input{
+    padding: 10px;
+    margin: 5px;
+}
+.footer-bt{
+    padding: 10px;
+    margin: 5px;
+    color: orange;
+    font-size: 18px;
+}
